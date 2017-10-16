@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b206dbbfc03a0c4a819046eff5687c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInterval: 2
+  timeInterval: 1.5
 --- !u!114 &519457116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,76 +406,6 @@ MonoBehaviour:
   bowlingBallPrefeb: {fileID: 2074471835}
   pooledAmount: 5
   lockPoolSize: 0
---- !u!1001 &615893145
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.72
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071066
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -0.70710695
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 19800000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: looping
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 19800000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: randomSeed
-      value: 497387149
-      objectReference: {fileID: 0}
-    - target: {fileID: 19800000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: prewarm
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 19800000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: startDelay.minMaxState
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 19900000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1665978827
-      objectReference: {fileID: 0}
-    - target: {fileID: 19900000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 19900000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &1168690646
 Prefab:
   m_ObjectHideFlags: 0
@@ -863,6 +793,16 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114900896932854968, guid: af04d2bf03f5254419da749b7de38ff2,
+        type: 2}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 100000, guid: b866c1599f9ac7747bad41ce94bf048d, type: 2}
+    - target: {fileID: 114900896932854968, guid: af04d2bf03f5254419da749b7de38ff2,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2126764340}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af04d2bf03f5254419da749b7de38ff2, type: 2}
   m_IsPrefabParent: 0
